@@ -1,0 +1,14 @@
+name: helloworld
+description: My first Bukkit plugin with Gradle
+main: com.monrus.spigot.plugin.helloworld.HelloWorld
+version: 0.1
+commands:
+  kit:
+    description: Дать игроку
+    usage: /kit
+  labegin:
+    description: Начать лабиринт
+    usage: /labegin
+  laend:
+    description: Закончить лабиринт
+    usage: /laend
